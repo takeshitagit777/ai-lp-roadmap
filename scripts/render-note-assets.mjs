@@ -229,6 +229,80 @@ const assets = [
         </div>
       </div>
     `
+  },
+  {
+    name: '07-30day-plan.png',
+    html: `
+      <div class="frame">
+        <div class="content">
+          <div class="eyebrow">30 DAY PLAN</div>
+          <h2>公開して終わりにしない<br>30日実行ロードマップ</h2>
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:40px;">
+            ${[
+              ['Week 1', 'デモLPを作成', '画像から構成を抜き出し、公開URLまで作る'],
+              ['Week 2', '実績化する', 'ポートフォリオ掲載、Before/Afterを整理'],
+              ['Week 3', '営業を始める', '候補30件を集め、改善案つきで連絡'],
+              ['Week 4', '提案を磨く', '返信内容から文面とオファーを改善']
+            ].map(([w, title, text]) => `
+              <div class="card" style="height:340px;padding:32px;display:flex;flex-direction:column;gap:22px;">
+                <div class="pill" style="align-self:flex-start;background:#0f8a63;">${w}</div>
+                <strong style="font-size:36px;line-height:1.25;">${title}</strong>
+                <p style="font-size:24px;margin:0;">${text}</p>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    `
+  },
+  {
+    name: '08-client-flow.png',
+    html: `
+      <div class="frame">
+        <div class="content">
+          <div class="eyebrow">CLIENT FLOW</div>
+          <h2>受注後に迷わない<br>ヒアリングから納品まで</h2>
+          <div style="display:grid;grid-template-columns:1.1fr .9fr;gap:34px;margin-top:36px;">
+            <div class="card" style="padding:42px;">
+              ${['目的を聞く', '素材を集める', '初稿を作る', '修正を1回まとめる', '公開URLを納品する'].map((t, i) => `
+                <div style="display:grid;grid-template-columns:70px 1fr;gap:20px;align-items:center;margin-bottom:22px;">
+                  <div style="width:58px;height:58px;border-radius:18px;background:#dff86b;display:grid;place-items:center;font-size:26px;font-weight:900;">${i + 1}</div>
+                  <div style="font-size:34px;font-weight:900;">${t}</div>
+                </div>
+              `).join('')}
+            </div>
+            <div class="card" style="padding:42px;background:#101418;color:#fff;">
+              <strong style="font-size:42px;line-height:1.25;">納品物を<br>最初に決める</strong>
+              <p style="color:#d9e5df;font-size:27px;">ページ数、修正回数、公開方法、追加料金を先にそろえると、案件が荒れにくくなります。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    `
+  },
+  {
+    name: '09-sales-list.png',
+    html: `
+      <div class="frame">
+        <div class="content">
+          <div class="eyebrow">SALES LIST</div>
+          <h2>営業先は「困っていそうな理由」で選ぶ</h2>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px;">
+            ${[
+              ['予約導線が弱い', '整体院 / 美容室 / 士業'],
+              ['スマホ表示が読みにくい', '店舗 / 工務店 / スクール'],
+              ['サービスの良さが伝わらない', '小規模BtoB / 採用ページ']
+            ].map(([title, text]) => `
+              <div class="card" style="height:300px;padding:34px;display:flex;flex-direction:column;justify-content:space-between;">
+                <strong style="font-size:38px;line-height:1.25;">${title}</strong>
+                <p style="font-size:26px;margin:0;">${text}</p>
+              </div>
+            `).join('')}
+          </div>
+          <p style="font-size:24px;margin-top:28px;">売り込みより先に、相手のページを見て「直す理由」を1つ見つける。</p>
+        </div>
+      </div>
+    `
   }
 ];
 
