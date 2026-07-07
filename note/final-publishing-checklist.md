@@ -2,23 +2,45 @@
 
 ## 記事設定
 
-- タイトルが分かりやすい
+- タイトルが具体的になっている
 - 表紙画像を設定した
 - 価格を20,000円に設定した
 - 無料部分だけでも価値が伝わる
 - 有料部分の直前で中身を明確に案内している
-- 「稼げる保証」ではなく「目指す」「実行する」にしている
+- 「必ず稼げる」ではなく「月15万円を目指す」にしている
+- `# ここから有料部分` の直前に有料ラインを入れた
 
 ## 画像
 
 - `00-cover.png` をアイキャッチに設定
-- `01-roadmap.png` を無料部分の序盤に配置
-- `02-income-model.png` を価格説明の近くに配置
-- `03-ai-workflow.png` をAI活用の説明に配置
-- `06-bonus-stack.png` を有料内容の説明に配置
-- `07-30day-plan.png` を実行計画の前に配置
-- `08-client-flow.png` を受注後フローの前に配置
-- `09-sales-list.png` を営業章の前に配置
+- `01-why-this-sells.png` を無料部分の序盤に配置
+- `02-full-roadmap.png` を全体像の説明に配置
+- `09-income-model.png` を価格説明の近くに配置
+- `16-bonus-stack.png` を教材内容の説明に配置
+- `03-reference-to-requirements.png` を参考画像の章に配置
+- `04-prompt-example.png` をプロンプト章に配置
+- `05-codex-build.png` を制作章に配置
+- `06-github-flow.png` をGitHub章に配置
+- `07-vercel-flow.png` をVercel章に配置
+- `15-common-errors.png` をエラー対応章に配置
+- `08-portfolio-proof.png` を実績化章に配置
+- `10-sales-list.png` を営業先選定章に配置
+- `11-sales-message.png` を営業文の章に配置
+- `12-client-flow.png` を受注後フローの章に配置
+- `13-delivery-checklist.png` を納品チェック章に配置
+- `14-30day-plan.png` を30日計画の章に配置
+- `17-action-sheet.png` を最後の行動喚起に配置
+
+## 本文
+
+- 無料部分で「何が手に入るか」が分かる
+- 有料部分に具体的な手順がある
+- プロンプトがコピペできる
+- GitHub / Vercelで詰まるポイントがある
+- 営業文テンプレがある
+- 受注後の流れがある
+- 納品文面がある
+- 30日実行計画がある
 
 ## 法務・表現
 
