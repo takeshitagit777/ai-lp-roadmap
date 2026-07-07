@@ -45,12 +45,13 @@
 10. `07-vercel-flow.png`
 11. `15-common-errors.png`
 12. `08-portfolio-proof.png`
-13. `10-sales-list.png`
-14. `11-sales-message.png`
-15. `12-client-flow.png`
-16. `13-delivery-checklist.png`
-17. `14-30day-plan.png`
-18. `17-action-sheet.png`
+13. `18-portfolio-examples.png`
+14. `10-sales-list.png`
+15. `11-sales-message.png`
+16. `12-client-flow.png`
+17. `13-delivery-checklist.png`
+18. `14-30day-plan.png`
+19. `17-action-sheet.png`
 
 ## 有料ライン
 
@@ -65,6 +66,14 @@
 - 価格
 
 有料部分では、実際の手順、プロンプト、Vercel設定、営業テンプレ、納品テンプレまで見せます。
+
+## 記事内で紹介するポートフォリオ
+
+本文内に以下のURLを入れています。
+
+`https://tagit-six.vercel.app/`
+
+営業で見せる実例として使うため、公開前にリンク先の制作実績カードが表示されるか確認してください。
 
 ## 購入者特典として渡すファイル
 

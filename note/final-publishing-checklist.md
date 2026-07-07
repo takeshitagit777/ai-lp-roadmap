@@ -24,6 +24,7 @@
 - `07-vercel-flow.png` をVercel章に配置
 - `15-common-errors.png` をエラー対応章に配置
 - `08-portfolio-proof.png` を実績化章に配置
+- `18-portfolio-examples.png` をポートフォリオ実例章に配置
 - `10-sales-list.png` を営業先選定章に配置
 - `11-sales-message.png` を営業文の章に配置
 - `12-client-flow.png` を受注後フローの章に配置
@@ -38,6 +39,7 @@
 - プロンプトがコピペできる
 - GitHub / Vercelで詰まるポイントがある
 - 営業文テンプレがある
+- ポートフォリオURL `https://tagit-six.vercel.app/` が入っている
 - 受注後の流れがある
 - 納品文面がある
 - 30日実行計画がある

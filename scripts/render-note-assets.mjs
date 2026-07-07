@@ -583,6 +583,33 @@ Output Directory: dist</div>
         </div>
       </div>
     `
+  },
+  {
+    name: '18-portfolio-examples.png',
+    html: `
+      <div class="frame">
+        <div class="content">
+          <div class="eyebrow">PORTFOLIO EXAMPLES</div>
+          <h2>営業で見せる実例を用意する</h2>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px;">
+            ${[
+              ['ハル整骨院', '整骨院LP / 予約導線'],
+              ['整備工場サイト', '地域企業 / 問い合わせ'],
+              ['佐賀アグリテック', '農業法人 / 企業サイト'],
+              ['製造業サイト', 'BtoB / 技術力訴求'],
+              ['保険営業サイト', '相談導線 / 信頼感'],
+              ['トレマチ', 'トレカのマッチングサービス']
+            ].map(([title, text]) => `
+              <div class="card" style="height:150px;padding:26px;display:flex;flex-direction:column;justify-content:center;">
+                <h3 style="font-size:32px;">${title}</h3>
+                <p style="font-size:22px;">${text}</p>
+              </div>
+            `).join('')}
+          </div>
+          <p style="font-size:24px;margin-top:28px;">ポートフォリオURLを営業文に添えると「実際に作れる人」として伝わりやすくなります。</p>
+        </div>
+      </div>
+    `
   }
 ];
 
